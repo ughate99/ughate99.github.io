@@ -5,13 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Information</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional CSS for animations and design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f7; /* Light blue background */
+        }
+
+        header {
+            background-color: #4682b4; /* Dark blue header background */
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #87ceeb; /* Light blue hover color */
+        }
+
+        main {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        #contact-info {
+            background-color: #fff; /* White background for contact section */
+            padding: 2rem;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #333; /* Dark text color */
+            animation: fadeInDown 2s;
+        }
+
+        p {
+            margin-bottom: 0.5rem;
+            color: #555; /* Medium-dark text color */
+            animation: fadeInUp 2s;
+        }
+
+        a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #4682b4; /* Dark blue button background */
+            color: #fff; /* Light text color */
+            text-decoration: none;
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #87ceeb; /* Light blue hover color */
+        }
+
+        footer {
+            background-color: #333; /* Dark footer background */
+            color: #fff; /* Light text color */
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Resume</a></li>
                 <li><a href="connect.html">Connect</a></li>
             </ul>
         </nav>
@@ -21,7 +117,7 @@
             <h1>Contact Information</h1>
             <p>Email: ghate.umesh.22@gmail.com</p>
             <p>Phone: +91 9325198788</p>
-            <a href="resume.pdf" download>Download Resume</a>
+            <a href="ughateresume.pdf" download>Download Resume</a>
         </section>
     </main>
     <footer>
